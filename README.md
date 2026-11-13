@@ -11,16 +11,25 @@ Keputusan: label sentimen diisi otomatis oleh AI (A), AI + cek manusia (B), atau
 |---|---|---|
 | P8 | Lembar Rencana Data, Lembar Verifikasi 5 sumber, data mentah + README_data, Log AI | Selesai (verifikasi tautan oleh anggota menunggu) |
 | P9 | AI melabel 300 teks, cek 50 label oleh manusia | Label AI selesai (94,7% vs label pakar); cek 50 manusia menunggu |
+| P10 | Tabel bersih, log pembersihan, SQL DuckDB, file instruksi AI (harness tahap 1) | Selesai — lihat [`laporan/Laporan_P10.md`](laporan/Laporan_P10.md) |
 
 ## Struktur
 
 ```
+AGENTS.md, CLAUDE.md                     instruksi untuk AI (harness tahap 1)
 laporan/Laporan_P8_P9.md                 Rencana Data, Verifikasi, hasil P9, Log AI
-notebook/LabSainsData_P8_P9_Kelompok2.ipynb   Colab, lolos Run all (unduh data sendiri dari GitHub)
+laporan/Laporan_P10.md                   tabel bersih, log pembersihan, hasil SQL, Log AI
+notebook/LabSainsData_P8_P9_Kelompok2.ipynb   P8–P9 (Run all)
+notebook/P10_merapikan_data_sql.ipynb         P10 pembersihan + DuckDB (Run all)
+sql/query_p10.sql                        query Q0–Q5
 data/README_data.md                      asal-usul data
-data/bersih_2026-11-06.csv               1.000 baris NusaX-senti setelah anonimisasi
-data/teks_untuk_AI.csv                   300 teks yang dikirim ke AI (tanpa label)
-data/label_ai_300.csv                    300 teks + label pakar + label AI
+data/kamus_data.md                       arti setiap kolom tabel bersih
+data/ulasan_bersih.csv                   tabel ulasan (1.000)
+data/label_ai.csv                        tabel label_ai (300, format panjang)
+data/label_manusia.csv                   tabel label_manusia (diisi dari cek 50)
+data/log_pembersihan.csv                 log setiap langkah pembersihan
+data/bersih_2026-11-06.csv               keluaran P8–P9 (teks setelah anonimisasi)
+data/teks_untuk_AI.csv, label_ai_300.csv P9: 300 teks yang dikirim ke AI + hasilnya
 data/cek50_label_manusia.xlsx            lembar cek 50 label (isi kolom kuning)
 ```
 
@@ -28,7 +37,8 @@ File mentah `raw_*.csv` sengaja **tidak** diunggah karena masih memuat nama oran
 
 ## Menjalankan
 
-Buka notebook di Google Colab (File → Upload notebook, atau *Open in Colab* dari GitHub) lalu **Runtime → Run all**.
+Buka notebook di Google Colab (File → Open notebook → GitHub, tempel URL repo ini) lalu **Runtime → Run all**.
+Notebook P10 mengambil label AI langsung dari repo ini, jadi tidak perlu mengunggah berkas.
 
 ## Lisensi dan atribusi data
 

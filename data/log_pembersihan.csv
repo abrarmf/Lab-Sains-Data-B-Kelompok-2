@@ -1,0 +1,13 @@
+no,tabel,langkah,alasan,baris_sebelum,baris_sesudah,baris_dibuang,sel_diubah
+1,ulasan,gabung 3 split NusaX,satu tabel 1 baris = 1 ulasan,1000,1000,0,0
+2,ulasan,buang baris kosong / id ganda,baris tanpa teks/label tidak bisa dinilai,1000,1000,0,0
+3,ulasan,rapikan spasi awal/akhir & ganda,teks sama harus tertulis sama,1000,1000,0,19
+4,ulasan,"buang duplikat (huruf kecil, tanpa tanda baca)",satu ulasan tidak boleh dihitung dua kali,1000,1000,0,0
+5,ulasan,seragamkan & validasi label,label di luar 3 nilai merusak hitungan akurasi,1000,1000,0,0
+6,ulasan,buang label tidak sah,hanya negative/neutral/positive,1000,1000,0,0
+7,ulasan,anonimisasi nama → [NAMA],nama orang tidak boleh masuk AI/publik,1000,1000,0,20
+8,ulasan,"tambah kolom n_kata, panjang, domain",bahan pertanyaan SQL per kelompok,1000,1000,0,0
+9,ulasan,ganti nama kolom & urutkan,"nama kolom jelas, 1 arti per kolom",1000,1000,0,0
+10,label_ai,validasi label AI P9,"label sah, 1 label per ulasan, id ada di ulasan",300,300,0,0
+11,label_ai,"tambah kolom model, versi_prompt, tanggal",setiap label bisa ditelusuri asalnya,300,300,0,0
+12,label_manusia,muat cek50_terisi.csv,label kosong/tidak sah dibuang,50,50,0,0

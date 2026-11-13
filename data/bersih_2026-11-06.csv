@@ -34,7 +34,7 @@ train,861,"Katanya di sana akan dibangun transmart, di sebelah bangunan itu.",ne
 train,628,"Sungguh pengalaman unik, makan di tengah sawah di antara padi yang hampir menguning. Dengan pilihan menu yang variatif, penyajian yang menarik dan menggugah selera.",positive,0
 train,181,"Makan bersama dengan para sistah beberapa waktu yang lalu, tempat nyaman, enak buat nongkrong, pelayanan bagus. Dah beberapa kali makan di sini.",positive,0
 train,208,"Tempat oleh-olehnya lengkap dan cukup nyaman, mudah dijangkau, harganya terjangkau, serta pelayanannya ramah",positive,0
-train,122,"Hai eviana, mohon maaf atas ketidaknyamanannya. Untuk kontak dari indosat dapat mengakses tautan ini: Silakan pengecekan ya. Terima kasih. Erf",neutral,0
+train,122,"Hai eviana, mohon maaf atas ketidaknyamanannya. Untuk kontak dari indosat dapat mengakses tautan ini: Silakan pengecekan ya. Terima kasih. [NAMA]",neutral,1
 train,655,Menunya indomie sama roti bakar. Untuk tempat sama seperti cabang yang lainnya nyaman buat kumpul. ,positive,0
 train,182,"Sambal dengan daun serawung, tomat, dan cabe rawit. Rasa sambal ini yang membuat kota di garut yang namanya cibiuk jadi terkenal. Sambal ini bisa dinikmati dengan gurame goreng ataupun dengan ayam goreng. Rasanya sangat enak. Selain di lengkokng cibiuk juga memiliki banyak cabang",positive,0
 train,316,Saya sudah konfirmasi ke pihak gramedia tapi dilempar-lempar tak ada kejelasan. Pihak gramed sampai spv di outlet tersebut saling lempar dan menyebut tidak ada promo. Kecewa dilempar-lempar begitu,negative,0
@@ -827,7 +827,7 @@ test,771,"Kalau ke sini saya selalu pesan singkong sambal roa. Singkongnya digor
 test,291,Telepon genggamnya eror pas pertama dinyalakan,negative,0
 test,998,Tidur yang cukup tiap harinya bisa bikin badan tidak kecapekan dan segar ketika bangun di pagi hari.,neutral,0
 test,770,Restoran ini sangat romantis dengan pemandangannya yang sangat indah di malam hari,positive,0
-test,220,"Selamat sore ibu, perihal produk perbankan bank mandiri apa yang dapat kami bantu? Yogi",neutral,0
+test,220,"Selamat sore ibu, perihal produk perbankan bank mandiri apa yang dapat kami bantu? [NAMA]",neutral,1
 test,928,"Suasananya di tempat ini sungguh luar biasa. Ketika itu kami datang pada senja menjelang malam, dan mendapatkan ruang yang menghadap ke air terjun. Gemericik air terjun dan suasana pedesaan menambah nikmat suasana makan malam kami ketika itu. Makanan disajikan dengan gaya tradisional dan rasanya cukup menarik untuk lidah kami.",positive,0
 test,754,"Harganya terlalu mahal, padahal makanan yang dijualkan makan indonesia umumnya. Padahal untuk menikmati makanan sejenis di tempat lain jauh lebih murah. Nasi goreng saja di sini mahal banget banget! Kesal.",negative,0
 test,183,Dalam akun mycare saya yang terblokir tersebut sudah saya tambahkan nomer im3 saya yang baru,neutral,0

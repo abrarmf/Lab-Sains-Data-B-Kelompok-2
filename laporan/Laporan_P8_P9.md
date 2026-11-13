@@ -15,7 +15,7 @@ Produk Lab Pemrograman: **aplikasi toko pakaian preloved/thrift**.
 | **DATA** | ≥ 300 teks ulasan berbahasa Indonesia yang sudah berlabel sentimen oleh manusia/pakar, ditambah 50 label yang kami cek sendiri. |
 | **SUMBER KANDIDAT** | (1) NusaX-senti Indonesia — dipakai. (2) PRDECT-ID (ulasan Tokopedia, 29 kategori) — cadangan. (3) IndoNLU SmSA — cek lisensi. |
 | **UBAH PILIHAN?** | **Ya.** Akurasi < 70% membuat kami tetap di C, 70–85% membuat kami pilih B. ~~Survei "apakah orang suka belanja thrift"~~ dan ~~jumlah follower Instagram toko~~ dicoret: angka itu tidak mengubah cara melabel ulasan. |
-| **LAMPU DATA** | **Kuning → hijau.** Dataset berlisensi terbuka, tetapi beberapa ulasan masih memuat nama orang, jadi dianonimkan dulu (21 nama di 18 baris diganti `[NAMA]`) sebelum dikirim ke AI. |
+| **LAMPU DATA** | **Kuning → hijau.** Dataset berlisensi terbuka, tetapi beberapa ulasan masih memuat nama orang, jadi dianonimkan dulu (21 nama di 18 baris diganti `[NAMA]`; di P10 menjadi 23 nama di 20 baris) sebelum dikirim ke AI. |
 | **JIKA TIDAK ADA** | PRDECT-ID (CC BY 4.0) disaring ke kategori pakaian; atau 100 ulasan toko kami sendiri setelah aplikasi berjalan (kuning, dianonimkan); atau semua dilabel manual (pilihan C). |
 
 Jenis analitik: **deskriptif/diagnostik** (mengukur seberapa sering AI benar) untuk keputusan berbasis ambang. Tingkat berikutnya: **prediktif**, yaitu memprediksi ulasan mana yang kemungkinan salah dilabel AI supaya hanya itu yang dicek manusia.
