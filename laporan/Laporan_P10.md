@@ -105,6 +105,8 @@ Keluhan hampir tidak pernah lolos (hanya 1 negatif yang dilabel netral). Kesalah
 | 11 | Claude Opus 5.5 | Membaca ulang teks per domain | Sampel 6 teks per domain | Menemukan 2 nama CS yang lolos | **Diubah**: daftar anonimisasi P8–P9 diperbarui (21 → 23 nama). |
 | 12 | Claude Opus 5.5 | Menulis query Q0–Q5 | Pertanyaan yang terkait keputusan | 6 query | Diterima setelah diuji (via SQLite pengganti); angka Q1 sama dengan P9. |
 | 13 | Claude Opus 5.5 | Menulis `AGENTS.md` | Aturan kelas + aturan proyek | 10 aturan + cek | Diterima; kelompok perlu membaca dan menyetujui aturannya. |
+| 14 | Claude Opus 5.5 | Push tabel bersih ke GitHub | Hasil notebook P10 | Commit `cdf3e1a` ikut membawa `label_manusia.csv` hasil uji coba (label pakar dengan pemeriksa "uji", **bukan** cek anggota) | **Ditolak/diperbaiki**: dikosongkan di commit `cce67e8`. Pelajaran: salin keluaran hanya dari run bersih, bukan dari folder uji. |
+| 15 | Claude Opus 5.5 | Mencoba Run all di Colab lewat browser | Tautan Colab notebook P10 | Notebook terbuka, tetapi butuh login Google untuk dijalankan | Belum: **anggota menjalankan Run all sendiri** untuk memastikan DuckDB asli. |
 
 ## 7. Yang masih harus dikerjakan kelompok
 
