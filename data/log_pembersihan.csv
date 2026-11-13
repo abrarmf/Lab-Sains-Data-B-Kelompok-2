@@ -10,4 +10,3 @@ no,tabel,langkah,alasan,baris_sebelum,baris_sesudah,baris_dibuang,sel_diubah
 9,ulasan,ganti nama kolom & urutkan,"nama kolom jelas, 1 arti per kolom",1000,1000,0,0
 10,label_ai,validasi label AI P9,"label sah, 1 label per ulasan, id ada di ulasan",300,300,0,0
 11,label_ai,"tambah kolom model, versi_prompt, tanggal",setiap label bisa ditelusuri asalnya,300,300,0,0
-12,label_manusia,muat cek50_terisi.csv,label kosong/tidak sah dibuang,50,50,0,0
