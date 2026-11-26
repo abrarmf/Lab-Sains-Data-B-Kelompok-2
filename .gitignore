@@ -1,3 +1,12 @@
+# Rahasia dan data mentah — tidak boleh masuk repo (TK1, slide 5)
+.env
+.env.*
+data/mentah/
 raw_*.csv
+
+# Python (dari templat .gitignore Python)
 __pycache__/
+*.py[cod]
+.venv/
+venv/
 .ipynb_checkpoints/
