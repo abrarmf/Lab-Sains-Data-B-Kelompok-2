@@ -12,7 +12,7 @@ Pemantau (akun diumumkan di kelas): _(isi setelah undangan dikirim lewat Setting
 Setiap anggota mengubah **satu baris** di bawah ini dari laptop dan akun GitHub-nya sendiri, lalu commit dan push.
 Cek di daftar commit GitHub: nama dan foto tiap anggota harus muncul.
 
-- Abrar: _(ganti baris ini dengan tanggal uji commit)_
+- Abrar: 26 November 2026
 - Dezra: 26 November 2026
 - Samuel: 26 November 2026
 
