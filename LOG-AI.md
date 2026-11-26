@@ -27,13 +27,13 @@ Dicek manusia: _(isi — buka PIHPS, pilih Jawa Tengah › Kota Semarang, cocokk
 Perintah: "Ini keputusan dan empat pertanyaan analitik kami: [tempel]. Untuk tiap pertanyaan, jelaskan apakah jawabannya membantu keputusan itu. Tandai pertanyaan yang jawabannya tidak akan mengubah keputusan. Jangan menambah pertanyaan baru."
 Hasil   : Beras ditandai **tidak mengubah keputusan** (0 minggu berubah ≥ 10%) → dikeluarkan dari keputusan, tetap sebagai pembanding. "Musim hujan" tidak bisa diuji dengan data cuaca (BMKG tanpa riwayat) → diuji sebagai bulan Nov–Mar. Pertanyaan preskriptif ditambah 3 batasan.
 Dicek   : Semua angka di berkas berasal dari hitungan PIHPS di atas.
-Dicek manusia: _(isi — Dezra: bacakan kalimat keputusan; ada "siapa" dan "kapan"?)_
+Dicek manusia: Dezra, kalimat keputusan sudah dibaca, menyebut siapa dan kapan.
 
 ## 26 Nov 2026, Abrar — riset kreatif dan KENAPA-KAMI (`01-riset/riset-kreatif.md`, `KENAPA-KAMI.md`)
 Perintah: "Keputusan kami: [tempel]. Cari dasbor, templat, atau fitur aplikasi yang sudah membantu keputusan serupa. Untuk tiap temuan beri tautan, siapa pembuatnya, dan pertanyaan apa yang bisa dijawabnya."
 Hasil   : 3 temuan dibuka dan diberi tangkapan layar: PIHPS + aplikasi Harga Pangan Nasional, Panel Harga Bapanas, dan majoo (Starter Rp249.000/outlet/bulan belum PPN).
 Dicek   : Harga majoo dicek di halaman resminya (tangkapan layar). Kutipan ulasan Play Store hanya diparafrasekan dan dicocokkan dengan tangkapan layar; **nama pengulas dan foto akun disamarkan** sebelum disimpan. Aplikasi lain yang muncul di pencarian tetapi tidak dibuka (mis. Info Pangan Jakarta) **tidak dikutip**. Klaim penghematan rupiah **sengaja tidak ditulis** karena belum diuji.
-Dicek manusia: _(isi)_
+Dicek manusia: Dezra, KENAPA-KAMI dan riset kreatif sudah dibaca, isinya sesuai.
 
 ## 26 Nov 2026, Abrar — kamus data (`kamus-data.md`)
 Perintah: "Baca data/sampel/pihps_semarang_sampel.csv. Buat kamus data: kolom, tipe, arti, contoh nilai."
