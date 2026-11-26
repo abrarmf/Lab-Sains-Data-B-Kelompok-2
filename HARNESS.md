@@ -29,7 +29,7 @@ Aplikasi lain : Google Sheets lewat konektor Google Drive, lihat bagian "Sambung
 | Samuel | _(isi)_ | _(isi)_ | _(tautan commit)_ |
 
 ## Bukti commit
-- Commit TK1 dari harness dengan baris `Co-authored-by`: _(diisi otomatis pada commit berikutnya; lihat riwayat branch `tk1-paket-dasar`)_
+- Commit TK1 dari harness dengan baris `Co-authored-by: Claude <noreply@anthropic.com>`: <https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/commit/d0b09ff8e4f2e196bf051e9661e308450111fb60> (`d0b09ff`, 26 Nov 2026)
 
 ## Sambungan ke aplikasi lain (Paket Dasar 5, slide 9)
 ```
