@@ -39,7 +39,7 @@ Dicek manusia: _(isi)_
 Perintah: "Baca data/sampel/pihps_semarang_sampel.csv. Buat kamus data: kolom, tipe, arti, contoh nilai."
 Hasil   : 7 kolom.
 Dicek   : Draf awal menulis bahwa PIHPS "tidak mencatat libur nasional" dan bahwa baris kategori adalah "rata-rata sub-komoditas". **Keduanya belum terbukti, jadi dihapus**. Diganti dengan fakta dari FAQ PIHPS (pencacahan Senin–Jumat) dan dari struktur data (`level` 1/2).
-Dicek manusia: _(isi — Samuel: cocokkan tiap baris kamus dengan CSV)_
+Dicek manusia: Samuel — 7 kolom kamus data dicocokkan dengan CSV. Nama kolom, tipe data, arti, dan contoh nilai sesuai.
 
 ## 26 Nov 2026, Abrar — skill (`SKILL-TERPASANG.md`)
 Perintah: "Baca seluruh isi folder skill ini, termasuk skripnya. Daftar setiap perintah yang mengakses internet, membaca kunci atau token, atau menghapus berkas. Kutip baris aslinya."
