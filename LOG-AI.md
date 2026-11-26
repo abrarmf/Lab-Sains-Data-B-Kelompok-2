@@ -33,7 +33,7 @@ Dicek manusia: _(isi — Dezra: bacakan kalimat keputusan; ada "siapa" dan "kapa
 Perintah: "Keputusan kami: [tempel]. Cari dasbor, templat, atau fitur aplikasi yang sudah membantu keputusan serupa. Untuk tiap temuan beri tautan, siapa pembuatnya, dan pertanyaan apa yang bisa dijawabnya."
 Hasil   : 3 temuan dibuka dan diberi tangkapan layar: PIHPS + aplikasi Harga Pangan Nasional, Panel Harga Bapanas, dan majoo (Starter Rp249.000/outlet/bulan belum PPN).
 Dicek   : Harga majoo dicek di halaman resminya (tangkapan layar). Kutipan ulasan Play Store hanya diparafrasekan dan dicocokkan dengan tangkapan layar; **nama pengulas dan foto akun disamarkan** sebelum disimpan. Aplikasi lain yang muncul di pencarian tetapi tidak dibuka (mis. Info Pangan Jakarta) **tidak dikutip**. Klaim penghematan rupiah **sengaja tidak ditulis** karena belum diuji.
-Dicek manusia: _(isi)_
+Dicek manusia: Dezra, kalimat keputusan di keputusan-dan-pertanyaan.md sudah menyebut siapa dan kapan. KENAPA-KAMI.md sudah dibaca dan isinya sesuai.
 
 ## 26 Nov 2026, Abrar — kamus data (`kamus-data.md`)
 Perintah: "Baca data/sampel/pihps_semarang_sampel.csv. Buat kamus data: kolom, tipe, arti, contoh nilai."
