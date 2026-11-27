@@ -61,3 +61,8 @@ Dicek manusia: _(isi — uji di sesi baru: tanya "Apa aturan data pribadi di pro
 
 ### Pencegahan jebakan TK1 (slide 29)
 Jebakan yang paling mungkin menimpa kelompok ini: **semua commit dari satu akun** (karena harness dipakai dari akun Abrar). Pencegahan: Dezra dan Samuel melakukan uji commit di `00-admin/anggota.md` dari akun masing-masing, dan menjadi *reviewer* Pull Request TK1 sebelum merge.
+
+## 27 Nov 2026, Abrar — pengecekan ulang oleh AI (bukan pengganti "Dicek manusia")
+Perintah: "Buka ulang semua tautan sumber dan cocokkan ulang 3 harga sampel dengan situs PIHPS."
+Hasil   : PIHPS bisa dibuka; 3 harga cocok dengan `data/sampel/pihps_semarang_sampel.csv` (3 Nov Cabai Merah Keriting 68.750; 17 Nov Bawang Merah Ukuran Sedang 32.250; 26 Nov Cabai Rawit Merah 61.250). Halaman SKB libur 2026 (setneg.go.id) bisa dibuka: 17 libur nasional + 8 cuti bersama. BMKG data terbuka bisa dibuka: prakiraan 3 hari, diperbarui 2× sehari, wajib mencantumkan BMKG. Beranda BPS Kota Semarang bisa dibuka (tabel inflasi belum dicari). Harga majoo Starter masih Rp249.000/outlet/bulan, belum termasuk PPN.
+Dicek   : Semua isi `01-riset/sumber-data.md` dan `KENAPA-KAMI.md` masih sesuai per 27 Nov 2026. Baris "Dicek manusia" di atas tetap harus diisi oleh anggota yang benar-benar memeriksa.
