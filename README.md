@@ -6,22 +6,23 @@ Tautan mengarah ke **versi tag** `tugas-1` dan baru bisa dibuka setelah Release 
 
 | Tugas | Berkas | Penanggung jawab | Status |
 |---|---|---|---|
-| TK1 | [01-riset/keputusan-dan-pertanyaan.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/01-riset/keputusan-dan-pertanyaan.md) | Dezra | Draf — menunggu review |
-| TK1 | [01-riset/sumber-data.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/01-riset/sumber-data.md) | Abrar | Draf — menunggu review |
-| TK1 | [01-riset/riset-kreatif.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/01-riset/riset-kreatif.md) | Dezra | Draf — menunggu review |
-| TK1 | [data/sampel/](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/tree/tugas-1/data/sampel), [kamus-data.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/kamus-data.md) | Samuel | Draf — menunggu review |
-| TK1 | [KENAPA-KAMI.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/KENAPA-KAMI.md) v1 | Dezra | Draf — menunggu review |
-| TK1 | [HARNESS.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/HARNESS.md), [SKILL-TERPASANG.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/SKILL-TERPASANG.md) | Semua (Abrar, Samuel) | Sebagian: harness & uji skill Dezra/Samuel belum |
-| TK1 | [AGENTS.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/AGENTS.md), [LOG-AI.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/LOG-AI.md), [00-admin/anggota.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/00-admin/anggota.md) | Semua | Sebagian: baris "Dicek manusia" & uji commit tiap anggota belum |
+| TK1 | [01-riset/keputusan-dan-pertanyaan.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/01-riset/keputusan-dan-pertanyaan.md) | Dezra | Isi selesai; cek manusia di PR #10 |
+| TK1 | [01-riset/sumber-data.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/01-riset/sumber-data.md) | Abrar | Isi selesai; cek manusia di PR #10 |
+| TK1 | [01-riset/riset-kreatif.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/01-riset/riset-kreatif.md) | Dezra | Isi selesai; cek manusia di PR #10 |
+| TK1 | [data/sampel/](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/tree/tugas-1/data/sampel), [kamus-data.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/kamus-data.md) | Samuel | Isi selesai; cek manusia di PR #10 |
+| TK1 | [KENAPA-KAMI.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/KENAPA-KAMI.md) v1 | Dezra | Isi selesai; cek manusia di PR #10 |
+| TK1 | [HARNESS.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/HARNESS.md), [SKILL-TERPASANG.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/SKILL-TERPASANG.md) | Semua (Abrar, Samuel) | Isi selesai; harness Dezra/Samuel & uji DuckDB di PR #10 |
+| TK1 | [AGENTS.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/AGENTS.md), [LOG-AI.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/LOG-AI.md), [00-admin/anggota.md](https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/blob/tugas-1/00-admin/anggota.md) | Semua | Isi selesai; "Dicek manusia" & uji commit Samuel di PR #10 |
 
-**Belum selesai sebelum Release** (daftar periksa slide 32):
-- [ ] Undang akun pemantau (Settings › Collaborators) dan pastikan diterima
-- [ ] Dezra dan Samuel commit dari akun sendiri (`00-admin/anggota.md`)
-- [ ] Baris "Dicek manusia" di `LOG-AI.md` diisi
+**Daftar periksa sebelum Release** (slide 32):
+- [x] PR #7 (isi TK1) dan PR #8 (kontribusi Dezra) sudah di-merge; Dezra & Samuel sudah jadi collaborator dan approve
+- [ ] Akun pemantau ditulis di `00-admin/anggota.md` dan undangannya diterima
+- [ ] Semua baris ✏️ di PR #10 diisi oleh orangnya masing-masing (Dicek manusia, harness, uji DuckDB, uji commit Samuel)
 - [ ] Tangkapan layar sambungan Sheets → `00-admin/bukti/sambungan-sheets.png`
-- [ ] Uji skill DuckDB di laptop (Samuel)
-- [ ] Review & merge Pull Request TK1, lalu buat Release `tugas-1` (target `main`) **sebelum 23.59 WIB sehari sebelum pertemuan 2**
-- [ ] Setelah Release terbit, buka setiap tautan di Papan Status ini
+- [ ] PR #10 di-approve Dezra & Samuel, lalu di-merge Abrar
+- [ ] Release `tugas-1` (target `main`) **sebelum 23.59 WIB sehari sebelum pertemuan 2**, lalu buka setiap tautan di Papan Status
+
+Catatan riwayat: PR #7 ter-merge sebelum Dezra sempat approve; ini dilengkapi di PR #8 dan dicatat di Issue #6. Riwayat tidak di-reset karena *force push* dilarang dan akan menghapus jejak kontribusi.
 
 **Proyek TK–TB:** sistem database harga bumbu untuk pemilik warung makan di Kota Semarang. Setiap Sabtu sore pemilik memutuskan berapa kg cabai rawit merah, cabai merah keriting, bawang merah, dan bawang putih yang dibeli untuk minggu depan: sekaligus, atau sebagian ditunda ke Rabu. Sumber utama: PIHPS Nasional Bank Indonesia (30.930 harga harian Kota Semarang, 2021–2026).
 

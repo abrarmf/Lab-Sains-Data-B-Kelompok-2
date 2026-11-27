@@ -25,8 +25,8 @@ Aplikasi lain : Google Sheets lewat konektor Google Drive, lihat bagian "Sambung
 | Anggota | Harness di laptop sendiri | Masuk dengan akun sendiri | Bukti |
 |---|---|---|---|
 | Abrar | Claude Code (sesi claude.ai) | ya | commit di bawah |
-| Dezra | _(isi)_ | _(isi)_ | _(tautan commit)_ |
-| Samuel | _(isi)_ | _(isi)_ | _(tautan commit)_ |
+| Dezra | ✏️ DEZRA ISI | ✏️ | ✏️ |
+| Samuel | ✏️ SAMUEL ISI | ✏️ | ✏️ |
 
 ## Bukti commit
 - Commit TK1 dari harness dengan baris `Co-authored-by: Claude <noreply@anthropic.com>`: <https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/commit/d0b09ff8e4f2e196bf051e9661e308450111fb60> (`d0b09ff`, 26 Nov 2026)
@@ -41,7 +41,7 @@ Cara     : konektor Google Drive bawaan aplikasi Claude (dinyalakan di pengatura
            dengan mengunggah CSV yang otomatis dikonversi ke Google Sheets.
 Uji      : AI membaca lembar itu dan melaporkan rentang A1:G7 → 7 baris (1 judul + 6 sumber), 7 kolom
            (sumber, peran, cara_ambil, lisensi_izin, frekuensi, perkiraan_baris, data_pribadi).
-Dicek    : _(nama anggota)_ membuka lembar dan menghitung baris & kolom → _(sama/tidak)_
+Dicek    : ✏️ ABRAR ISI (nama, jumlah baris & kolom yang kamu hitung, sama/tidak)
 Bukti    : 00-admin/bukti/sambungan-sheets.png  ← tangkapan layar diambil anggota setelah membuka lembar
 ```
 Alur cadangan bila konektor tidak tersedia: unduh lembar sebagai CSV → simpan di `data/sampel/` → AI membaca dari sana.
