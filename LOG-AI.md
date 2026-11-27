@@ -57,7 +57,7 @@ Dicek Abrar: lembar dibuka 27 November 2027, 7 baris × 7 kolom, sama dengan lap
 Perintah: "Susun AGENTS.md dengan empat bagian: tujuan proyek, aturan AI dan data, struktur folder, kebiasaan mengisi Log AI."
 Hasil   : AGENTS.md baru (aturan P8–P10 dipindah ke bagian arsip), `.gitignore` memuat `.env` dan `data/mentah/`, anggota.md tanpa nomor HP, README dengan Papan Status.
 Dicek   : Draf aturan 6 menulis "Data PIHPS lengkap disimpan di sana", padahal belum ada yang mengunduhnya. **Diperbaiki** menjadi "bila diunduh".
-Dicek manusia: ✏️ DEZRA ISI DI SINI
+Dicek manusia: Dezra — AGENTS.md diuji di sesi baru 27 November 2026 (Claude Opus 5.5); jawaban AI sesuai aturan 4: AI menyebut bahwa data pribadi (nama, nomor HP, email, alamat, NIK orang sungguhan) tidak boleh masuk repo, kolomnya dibuang sebelum data disimpan ke data/sampel/, dan nama pengulas di tangkapan layar disamarkan.
 
 ### Pencegahan jebakan TK1 (slide 29)
 Jebakan yang paling mungkin menimpa kelompok ini: **semua commit dari satu akun** (karena harness dipakai dari akun Abrar). Pencegahan: Dezra dan Samuel melakukan uji commit di `00-admin/anggota.md` dari akun masing-masing, dan menjadi *reviewer* Pull Request TK1 sebelum merge.
