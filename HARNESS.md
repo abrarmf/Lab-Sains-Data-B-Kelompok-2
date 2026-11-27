@@ -41,7 +41,7 @@ Cara     : konektor Google Drive bawaan aplikasi Claude (dinyalakan di pengatura
            dengan mengunggah CSV yang otomatis dikonversi ke Google Sheets.
 Uji      : AI membaca lembar itu dan melaporkan rentang A1:G7 → 7 baris (1 judul + 6 sumber), 7 kolom
            (sumber, peran, cara_ambil, lisensi_izin, frekuensi, perkiraan_baris, data_pribadi).
-Dicek    : ✏️ ABRAR ISI (nama, jumlah baris & kolom yang kamu hitung, sama/tidak)
+Abrar sudah membuka lembar dan menghitung 7 baris × 7 kolom → sama
 Bukti    : 00-admin/bukti/sambungan-sheets.png  ← tangkapan layar diambil anggota setelah membuka lembar
 ```
 Alur cadangan bila konektor tidak tersedia: unduh lembar sebagai CSV → simpan di `data/sampel/` → AI membaca dari sana.
