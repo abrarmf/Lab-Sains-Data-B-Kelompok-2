@@ -25,7 +25,7 @@ Aplikasi lain : Google Sheets lewat konektor Google Drive, lihat bagian "Sambung
 | Anggota | Harness di laptop sendiri | Masuk dengan akun sendiri | Bukti |
 |---|---|---|---|
 | Abrar | Claude Code (sesi claude.ai) | ya | commit di bawah |
-| Dezra | ✏️ DEZRA ISI | ✏️ | ✏️ |
+| Dezra | Claude (Opus 5.5) | ya | https://github.com/abrarmf/Lab-Sains-Data-B-Kelompok-2/commit/b47191d |
 | Samuel | ✏️ SAMUEL ISI | ✏️ | ✏️ |
 
 ## Bukti commit
